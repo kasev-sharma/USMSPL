@@ -17,7 +17,7 @@
                     <ion-icon name="call-outline"></ion-icon>
                     <div class="box phone">
                         <h5>Phone</h5>
-                        <small>+44(0)7776598414</small>
+                        <small>+918918974840</small>
                     </div>
                 </div>
                 <div class="contact-us-link">
@@ -32,7 +32,7 @@
                     <ion-icon name="location-outline"></ion-icon>
                     <div class="box phone">
                         <h5>Meet Us better At</h5>
-                        <small>30, Beehive Court, Beehive Lane, Ilford, London, IG1 3RG, UK.</small>
+                        <small>C/O Mahabir Prasad Agarwal,Banarhat Bazar,Jalpaiguri,West Bengal,India - 735225</small>
                     </div>
                 </div>
             </div>
