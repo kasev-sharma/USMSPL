@@ -25,7 +25,7 @@
                     <div class="box phone">
                         <h5>Email</h5>
                         {{-- Professional Enhancement: Use mailto for a clickable link --}}
-                        <a href="mailto:jmjimportandexports@gmail.com">jmjimportandexports@gmail.com</a>
+                        <a href="mailto:underskyexports@gmail.com">underskyexports@gmail.com</a>
                     </div>
                 </div>
                 <div class="contact-us-link">

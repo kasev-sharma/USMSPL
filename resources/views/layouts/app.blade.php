@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Dynamic Page Title. Defaults to 'JMJ Imports & Exports' if no title is provided -->
-    <title>{{ $title ?? 'JMJ Imports & Exports' }}</title>
+    <!-- Dynamic Page Title. Defaults to 'Under Sky Imports & Exports' if no title is provided -->
+    <title>{{ $title ?? 'Under Sky Imports & Exports' }}</title>
+
+    <meta name="description" content="Under Sky Imports & Exports is a global sourcing leader specializing in high-quality minerals, exquisite handcrafted jewelry, and premium teas. We provide end-to-end logistics, customs, and compliance solutions.">
 
     <!-- Professional Enhancement: Add a Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('images/Vector.png') }}">

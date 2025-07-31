@@ -6,7 +6,7 @@
                 <h1>Bringing the world <br />to your doorstep</h1>
             </div>
             <p>
-                Welcome to the world of JMJ imports and exports, a leading company
+                Welcome to the world of Under Sky imports and exports, a leading company
                 dedicated to simplifying global commerce and enabling businesses
                 to thrive in the international market. With our extensive
                 expertise in trade logistics and a comprehensive network of

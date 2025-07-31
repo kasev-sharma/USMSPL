@@ -190,7 +190,7 @@ a {
   color: var(--white-color);
 }
 .bg-map{
-  background-image: url(../images/layer.png);
+  background-image: url(/images/layer.png); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

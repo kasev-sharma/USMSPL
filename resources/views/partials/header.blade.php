@@ -4,8 +4,8 @@
         <div class="nav__data">
             <a href="{{ route('home') }}" class="nav__logo">
                 {{-- Use the asset() helper for images in the public folder --}}
-                <img src="{{ asset('images/Vector.png') }}" alt="JMJ Logo"> 
-                <span style="margin-left: 10px;">JMJ Imports<br> & Exports</span>
+                <img src="{{ asset('images/Vector.png') }}" alt="Under Sky Logo"> 
+                <span style="margin-left: 10px;">Under Sky Imports<br> & Exports</span>
             </a>
             <div class="gold-small">
                 <img src="{{ asset('images/image 1.png') }}" alt="Gold Coin Promotion">

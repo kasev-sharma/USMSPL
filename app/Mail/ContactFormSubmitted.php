@@ -29,7 +29,7 @@ class ContactFormSubmitted extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'New Inquiry from JMJ Website',
+            subject: 'New Inquiry from Under Sky Website',
         );
     }
 

@@ -7,12 +7,12 @@
         <div class="about-title">
             <h2 class="title">
                 <i>Unlocking Opportunities, Delivering Excellence</i>
-                <span>JMJ Imports & Exports</span>
+                <span>Under Sky Imports & Exports</span>
             </h2>
         </div>
         <div class="who-we-are">
             <div class="who-we-are-image">
-                <img src="{{ asset('images/Exclude.png') }}" alt="JMJ Company Values">
+                <img src="{{ asset('images/Exclude.png') }}" alt="Under Sky Company Values">
             </div>
             <div class="who-we-are-para">
                 <h4>Who we are</h4>
