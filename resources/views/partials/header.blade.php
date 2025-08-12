@@ -50,7 +50,7 @@
                     </ul>
                 </li>
                 <li><a href="#about-us" class="nav__link nav-scroll-link">About Us</a></li>
-                <li><a href="#contactus" id="contact-navlink" class="nav__link nav-scroll-link">Contact: +4407776598414</a></li>
+                <li><a href="#contactus" id="contact-navlink" class="nav__link nav-scroll-link">Contact: +918918974840</a></li>
             </ul>
         </div>
         <div class="gold-desktop">
