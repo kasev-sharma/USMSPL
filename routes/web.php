@@ -16,3 +16,5 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 // We define the route for the contact form submission now
 // It won't work yet, but it's good practice to have it defined
 Route::post('/contact', [ContactFormController::class, 'submit'])->name('contact.submit');
+
+Route::get('/minerals', [PageController::class, 'minerals'])->name('minerals');

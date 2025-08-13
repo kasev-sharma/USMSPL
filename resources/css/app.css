@@ -32,6 +32,11 @@
     --normal-font-size: 1rem;
   }
 }
+/* Fix for Footer Overlap Issue */
+.wrapper {
+    /* This adds space at the bottom of the main content, before the footer */
+    padding-bottom: 60px; 
+}
 
 /*=============== BASE ===============*/
 * {
@@ -253,6 +258,7 @@ a {
 #quotation{
 
 }
+
 
 /* HERO SECTION HAS ENDED */
 
@@ -1162,4 +1168,135 @@ input[type="submit"]:focus {
 #form-status {
   margin-top: 15px;
   font-weight: bold;
+}
+/*=============== NEW FOOTER STYLES ===============*/
+.new-footer {
+    background-color: #2c2c2c;
+    color: #a9a9a9;
+    padding: 60px 0 0 0; /* Remove bottom padding to let footer-bottom handle it */
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    /* On mobile, stack everything in one column */
+    grid-template-columns: 1fr; 
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-column h4 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a, 
+.footer-column address a {
+    color: #a9a9a9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover,
+.footer-column address a:hover {
+    color: #ffffff;
+}
+
+.footer-column .corporate-detail {
+    color: #a9a9a9;
+}
+.footer-column .corporate-detail strong {
+    color: #dcdcdc;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-logo img {
+    width: 50px;
+    margin-right: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-logo span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #a9a9a9;
+    font-size: 1.8rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.footer-column address {
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.contact-links i {
+    margin-right: 10px;
+    width: 20px; /* To align the text */
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 20px 0;
+    margin-top: 40px; /* Add margin-top instead of padding on the parent */
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* 
+ * THE FIX: Media Query for larger screens
+ * This tells the grid to use 4 columns on screens wider than 768px
+*/
+@media (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    }
+}
+
+/* For very large screens, you could even specify column spans if needed */
+@media (min-width: 992px) {
+    .footer-grid {
+         /* Example: First column takes more space */
+        grid-template-columns: 2fr 1fr 1fr 1.5fr; 
+    }
 }

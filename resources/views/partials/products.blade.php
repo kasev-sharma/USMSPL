@@ -14,7 +14,7 @@
                         Sourcing and exporting a diverse range of high-purity minerals for industrial and commercial applications. Our commitment to quality ensures materials meet rigorous global standards.
                     </p>
                     <div class="link">
-                        <a href="#contactus">Request a Quote</a>
+                       <a href="{{ route('minerals') }}">Learn More</a>
                     </div>
                 </div>
             </div>

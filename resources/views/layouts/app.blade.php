@@ -26,17 +26,25 @@
     <!-- Compiled CSS -->
     @vite('resources/css/app.css')
 
+    <!-- THIS IS THE NEW LINE TO ADD -->
+    @stack('styles')
 </head>
 <body>
     <div class="wrapper">
-        <!-- The content of our page sections will be injected here -->
+        
+        {{-- Include the Header on every page --}}
+        @include('partials.header')
+
+        {{-- The @yield directive will display the content of a given section --}}
         @yield('content')
+
     </div>
 
-    <!-- Ion Icons (from original HTML) -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    {{-- Include the Footer on every page (outside the main wrapper if it's full-width) --}}
+    @include('partials.footer')
 
-    <!-- Compiled JavaScript -->
+    {{-- Scripts --}}
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     @vite('resources/js/app.js')
 </body>
 </html>

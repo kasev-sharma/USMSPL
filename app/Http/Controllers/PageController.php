@@ -18,4 +18,10 @@ class PageController extends Controller
         
         return view('pages.index', compact('title'));
     }
+
+     public function minerals()
+    {
+        $title = 'High-Grade Minerals for Global Industries | Undersky Export';
+        return view('pages.minerals', compact('title'));
+    }
 }
