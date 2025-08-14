@@ -18,3 +18,5 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 Route::post('/contact', [ContactFormController::class, 'submit'])->name('contact.submit');
 
 Route::get('/minerals', [PageController::class, 'minerals'])->name('minerals');
+Route::get('/tea', [PageController::class, 'tea'])->name('tea');
+Route::get('/jewelry', [PageController::class, 'jewelry'])->name('jewelry');

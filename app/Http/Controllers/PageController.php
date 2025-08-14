@@ -24,4 +24,17 @@ class PageController extends Controller
         $title = 'High-Grade Minerals for Global Industries | Undersky Export';
         return view('pages.minerals', compact('title'));
     }
+
+
+    public function tea()
+    {
+        $title = 'Premium Sourced Teas for Global Export | Undersky Export';
+        return view('pages.tea', compact('title'));
+    }
+
+      public function jewelry()
+    {
+        $title = 'Exquisite Handcrafted Jewelry for Global Export | Undersky Export';
+        return view('pages.jewelry', compact('title'));
+    }
 }

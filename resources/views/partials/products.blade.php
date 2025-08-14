@@ -27,7 +27,7 @@
                         Discover exquisite, handcrafted jewelry from master artisans. We import and export timeless pieces that blend traditional craftsmanship with contemporary designs.
                     </p>
                     <div class="link">
-                        <a href="#contactus">Inquire Now</a>
+                            <a href="{{ route('jewelry') }}">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         Experience the authentic taste of the world's finest teas. We specialize in sourcing premium, single-origin, and blended teas for a rich and aromatic experience.
                     </p>
                     <div class="link">
-                        <a href="#contactus">Inquire Now</a>
+                          <a href="{{ route('tea') }}">Learn More</a>
                     </div>
                 </div>
             </div>

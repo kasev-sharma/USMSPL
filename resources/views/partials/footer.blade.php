@@ -27,8 +27,8 @@
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="{{ route('minerals') }}">Minerals</a></li>
                     {{-- Add these routes when the pages are created --}}
-                    {{-- <li><a href="{{ route('jewelry') }}">Jewelry</a></li> --}}
-                    {{-- <li><a href="{{ route('tea') }}">Tea</a></li> --}}
+                    <li><a href="{{ route('jewelry') }}">Jewelry</a></li>
+                     <li><a href="{{ route('tea') }}">Tea</a></li>
                     <li><a href="{{ route('home') }}#about-us">About Us</a></li>
                 </ul>
             </div>
@@ -51,13 +51,13 @@
                 <h4>Contact Us</h4>
                 <address>
                     <a href="https://maps.google.com/?q=30, Beehive Court, Beehive Lane, Ilford, London, IG1 3RG, UK" target="_blank" rel="noopener noreferrer">
-                        <i class="ri-map-pin-line"></i> 30, Beehive Court, Beehive Lane, Ilford, London, IG1 3RG, UK.
+                        <i class="ri-map-pin-line"></i>C/O Mahabir Prasad Agarwal,Banarhat Bazar,Jalpaiguri,West Bengal,India - 735225
                     </a>
                 </address>
                 <ul class="contact-links">
                     <li><a href="tel:+918918974840"><i class="ri-phone-fill"></i> +91 89189 74840</a></li>
                     <li><a href="https://wa.me/918918974840" target="_blank" rel="noopener noreferrer"><i class="ri-whatsapp-fill"></i> WhatsApp Us</a></li>
-                    <li><a href="mailto:jmjimportandexports@gmail.com"><i class="ri-mail-line"></i> jmjimportandexports@gmail.com</a></li>
+                    <li><a href="mailto:underskyexports@gmail.com"><i class="ri-mail-line"></i> underskyexports@gmail.com</a></li>
                 </ul>
             </div>
 
