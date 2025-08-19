@@ -1300,3 +1300,165 @@ input[type="submit"]:focus {
         grid-template-columns: 2fr 1fr 1fr 1.5fr; 
     }
 }
+
+/*=============== FEATURE SECTION ("WHY CHOOSE US") ===============*/
+.feature-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa; /* A very light, professional gray */
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to 1 column for mobile */
+    gap: 40px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item i {
+    font-size: 3rem; /* Larger icons */
+    color: #ae764e; /* Use your theme's accent color */
+    margin-bottom: 15px;
+    display: block;
+}
+
+.feature-item h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    line-height: 1.6;
+    color: #6c757d; /* A softer text color */
+}
+
+/* Media query for tablets and desktops */
+@media (min-width: 768px) {
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+    }
+}
+.gold-small img,
+.gold-desktop img {
+    /* Sets a fixed height for the logo. You can adjust this value. */
+    height: 60px; 
+    
+    /* Tells the browser to scale the width automatically to maintain the aspect ratio. */
+    width: auto; 
+
+    /* Ensures the image is perfectly circular, even if the source has slight imperfections. */
+    border-radius: 50%; 
+}
+
+/* ========================================================== */
+/*            UPGRADED STYLES FOR ORIGINAL CONTACT FORM       */
+/* ========================================================== */
+
+.contact-us-container .contact-us-title {
+    border-top: 4px solid #ae764e;
+    max-width: 300px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin: 1rem auto;
+}
+
+.contact-us-wrapper {
+    background-color: #ffecdb;
+}
+
+.contact-us-wrapper .contact-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start; /* Aligns items to the top */
+}
+
+.contact-us-wrapper .contact-us-links-container,
+.contact-us-wrapper .form {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Form Styling */
+.contact-us-wrapper .form {
+    padding: 20px;
+    background-color: #fff; /* Give the form a clean white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.contact-us-wrapper form {
+    padding: 0; /* Reset default padding */
+    margin: 0;
+}
+
+/* Modern Input Fields */
+.contact-us-wrapper input[type="text"],
+.contact-us-wrapper input[type="email"],
+.contact-us-wrapper textarea,
+.contact-us-wrapper select {
+    width: 100%;
+    padding: 12px;
+    margin: 0 0 15px 0; /* Spacing below each field */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-us-wrapper select {
+    /* Ensures dropdown has consistent appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.contact-us-wrapper input:focus,
+.contact-us-wrapper textarea:focus,
+.contact-us-wrapper select:focus {
+    outline: none;
+    border-color: #ae764e;
+    box-shadow: 0 0 5px rgba(174, 118, 78, 0.5);
+}
+
+/* Professional Submit Button */
+.contact-us-wrapper .btn-submit {
+    width: 100%;
+    background-color: #ae764e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact-us-wrapper .btn-submit:hover {
+    background-color: #9c6c44;
+    transform: translateY(-2px);
+}
+
+.contact-us-wrapper .btn-submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

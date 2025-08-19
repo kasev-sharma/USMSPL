@@ -136,3 +136,25 @@ if (contactForm) {
         });
     });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Check if the URL has a hash
+    if (window.location.hash) {
+        // Use a small timeout to ensure the page is fully rendered
+        setTimeout(() => {
+            const targetId = window.location.hash;
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                const header = document.querySelector('.header');
+                const headerHeight = header ? header.offsetHeight : 0;
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+            }
+        }, 100); // 100ms delay
+    }
+});
