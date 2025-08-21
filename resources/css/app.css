@@ -1462,3 +1462,42 @@ input[type="submit"]:focus {
     background-color: #ccc;
     cursor: not-allowed;
 }
+/* ========================================================== */
+/*           CORRECTED RESPONSIVE HEADER STYLES               */
+/* ========================================================== */
+
+/* The logo circle that appears in the top right */
+.header-logo-circle {
+    display: none; /* Hide it on mobile by default */
+}
+.header-logo-circle img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* 
+ * This is the main layout fix for DESKTOP screens
+ * It turns the navigation into a flexbox container.
+*/
+@media screen and (min-width: 945px) {
+    /* Make the nav container a flexbox */
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* Target the list of navigation items */
+    .nav__list {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem; /* Space between nav items */
+    }
+
+    /* Make the logo circle visible on desktop */
+    .header-logo-circle {
+        display: block; /* Show the logo */
+        margin-left: 1rem; /* Space between contact and logo */
+    }
+}

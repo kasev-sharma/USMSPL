@@ -40,9 +40,9 @@
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
-                    <li class="corporate-detail"><strong>Reg. Name:</strong> [Your Company Name]</li>
-                    <li class="corporate-detail"><strong>IEC:</strong> [Your IEC Code]</li>
-                    <li class="corporate-detail"><strong>GSTIN:</strong> [Your GSTIN]</li>
+                    <li class="corporate-detail"><strong>Reg. Name:</strong> Under Sky Management Service Pvt Ltd </li>
+                    <li class="corporate-detail"><strong>IEC:</strong> 735202 </li>
+                    <li class="corporate-detail"><strong>GSTIN:</strong> 19AACCU5981D1Z3/G</li>
                 </ul>
             </div>
 
