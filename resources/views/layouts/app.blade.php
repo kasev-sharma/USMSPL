@@ -28,6 +28,16 @@
 
     <!-- THIS IS THE NEW LINE TO ADD -->
     @stack('styles')
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65R9S2TQ4E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65R9S2TQ4E');
+</script>
 </head>
 <body>
     <div class="wrapper">

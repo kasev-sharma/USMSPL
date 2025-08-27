@@ -13,8 +13,8 @@
                     Your trusted global partner in sourcing quality minerals, jewelry, and teas.
                 </p>
                 <div class="social-icons">
-                    <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/under-sky-exports-590a33322/" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://www.instagram.com/underskyexports/" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
                     <a href="#" aria-label="Facebook"><i class="ri-facebook-box-fill"></i></a>
                     <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
                 </div>
